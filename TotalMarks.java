@@ -10,7 +10,7 @@ public class TotalMarks {
 		int English=90;
 		int Hindi=97;
 		int Management=70;
-		int Total=maths+IOT+NoSql+English+Hindi+Management;
+		double Total=maths+IOT+NoSql+English+Hindi+Management;
 		double percentage=Total*100/TotalMarks;
 		System.out.println(Total);
 		System.out.println("Percentage:"+percentage+"%");
